@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html, body {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  color: #00ff15;
+  line-height: 50px;
+}
+
+input {
+  border: 1px solid #777;
+  background-color: transparent;
+  width: 20%;
+  padding: 10px;
+}
+
+button {
+  width: 8%;
+  min-width: 100px;
+  height: 40px;
+  border: 1px solid #777;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:active {
+  outline: none;
+  border-color: #00ff15;
+  box-shadow: 0 0 10px #00ff15;
+}
+
+
+input:focus {
+  outline: none;
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+
+input:focus:valid {
+  border-color: green;
+  box-shadow: 0 0 10px green;
+
+}
+
+.input-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+li.done {
+  text-decoration: line-through;
+}
+
+li.done button:active {
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+
+li .delete:active {
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+li p::first-letter{
+  text-transform: uppercase;
+}
+
+li {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  column-gap: 15px;
+}
+
+li p {
+  width: 165px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
