@@ -18,3 +18,6 @@
 ###
 #4# php-backend klasörünün içindeki index.php dosyasını kendi veritabanınıza göre düzenleyin.
 ###
+
+
+![image](https://user-images.githubusercontent.com/119454329/204661047-8f40ce36-2c5a-4598-b3b5-4088c3150970.png)
