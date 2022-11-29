@@ -1,4 +1,4 @@
-##Kurulum 
+## Kurulum 
 
 ###
 #0# indirdiğiniz klasörü C/xampp/htdocs/ altında ReactHS-PHP-MYSQL ismiyle yerleştirin.
