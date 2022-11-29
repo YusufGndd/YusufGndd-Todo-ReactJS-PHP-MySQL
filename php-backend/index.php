@@ -7,10 +7,10 @@ header("Access-Control-Allow-Origin: *");
 Database bağlantısı
 #####################
 
-$yo_sunucu="sql113.epizy.com";
-$yo_kullanici="epiz_33068576";
-$yo_sifre="WdEtTlQ8ISJL";
-$yo_adi="epiz_33068576_reactPHP";
+$yo_sunucu="server.com";
+$yo_kullanici="server_123";
+$yo_sifre="123123";
+$yo_adi="yazilim-ogren";
 
 try {
     $db = new PDO ("mysql:host=$yo_sunucu;dbname=$yo_adi",$yo_kullanici,$yo_sifre);
