@@ -13,7 +13,7 @@
 ###
 
 ###
-#3# .env dosyasının içini düzenleyiniz port yazan yere portunuzu yazın örnek " localhost:port => localhost:8080 " eğer potunuz ### yoksa " localhost:port => localhost " olarak değiştirin yani ":port" yazısını silin.
+#3# .env dosyasının içini düzenleyiniz port yazan yere portunuzu yazın örnek " localhost:port => localhost:8080 " eğer potunuz yoksa " localhost:port => localhost " olarak değiştirin yani ":port" yazısını silin.
 
 ###
 #4# php-backend klasörünün içindeki index.php dosyasını kendi veritabanınıza göre düzenleyin.
